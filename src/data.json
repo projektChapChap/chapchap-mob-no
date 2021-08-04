@@ -1,0 +1,47 @@
+[{
+  "name": "Airtel",
+  "phone": ["068", "069", "078"]
+},
+  {
+    "name": "Vodacom",
+    "phone": ["074", "075", "076"]
+  },
+  {
+    "name": "Tigo",
+    "phone": ["065", "067", "071"]
+  },
+  {
+    "name": "TTCL",
+    "phone": ["073", "039", "010"]
+  },
+  {
+    "name": "HALOTEL",
+    "phone": ["062"]
+  },
+  {
+      "name": "AMMOTEL",
+      "phone": ["063"]
+    },  
+
+    {
+      "name": "COOTEL",
+      "phone": ["064"]
+    },
+
+    {
+      "name": "ZANTEL",
+      "phone": ["066"]
+    },
+    {
+      "name": "SMART",
+      "phone": ["077"]
+    },
+
+    {
+      "name": "SMART",
+      "phone": ["079"]
+    }
+
+
+
+]
