@@ -50,7 +50,7 @@ export default class App extends React.Component {
         <div id="type">
           {image ? (
             <img
-              src={ 'http://20.83.186.167' + image}
+              src={ 'https://20.83.186.167' + image}
               width="100px"
               height="100px"
             />
