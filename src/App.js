@@ -43,6 +43,8 @@ export default class App extends React.Component {
             ref="search"
             onChange={this.handleChange}
             placeholder="andika namba hapa"
+            maxLength="10"
+            type="number"
           />
         </div>
         <div id="type">
@@ -71,5 +73,5 @@ export default class App extends React.Component {
 }
 
 const styles = {
-  marginTop: "20%",
+  marginTop: "25%",
 };
