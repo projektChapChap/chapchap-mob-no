@@ -12,45 +12,45 @@
   {
     "name": "Tigo",
     "phone": ["065", "067", "071"],
-    "image": "./images/tigo.png"
+    "image": "images/tigo.png"
   },
   {
     "name": "TTCL",
     "phone": ["073", "039", "010"],
-    "image": "./images/ttcl.png"
+    "image": "images/ttcl.png"
   },
   {
     "name": "Halotel",
     "phone": ["062"],
-    "image": "./images/halotel.png"
+    "image": "images/halotel.png"
 
   },
   {
     "name": "Ammotel",
     "phone": ["063"],
-    "image": "./images/ammotel.png"
+    "image": "images/ammotel.png"
   },
 
   {
     "name": "Cootel",
     "phone": ["064"],
-    "image": "./images/cootel.png"
+    "image": "images/cootel.png"
   },
 
   {
     "name": "Smile",
     "phone": ["066"],
-    "image": "./images/smile.jpg"
+    "image": "images/smile.jpg"
   },
   {
     "name": "Zantel",
     "phone": ["077"],
-    "image": "./images/zantel.png"
+    "image": "images/zantel.png"
   },
 
   {
     "name": "Smart",
     "phone": ["079"],
-    "image": "./images/smart.png"
+    "image": "images/smart.png"
   }
 ]
