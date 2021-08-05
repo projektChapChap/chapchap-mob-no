@@ -1,6 +1,6 @@
 import React from "react";
 import data from "./data.json";
-import styless from "./App.css"
+import "./App.scss";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -29,33 +29,46 @@ export default class App extends React.Component {
       for (var obj2 in datum) {
         if (trimmedString === datum[obj2]) {
           var result = data[obj].name;
-          console.log(result);
+          var image = data[obj].image;
         }
       }
     }
     return (
-      <form className="form" onSubmit={this.handleSubmit} style={styles}>
-        <div className="mb-3">
-          <label className="form-label text-center">Enter a Phone Number</label>
+      <div style={styles}>
+        <h5>Jua namba Chap-chap!</h5>
+        <div>
           <input
             type="text"
-            className="form-control w-30"
-            id="phoneNoInput"
-            name="phoneNo"
             value={this.state.value}
+            ref="search"
             onChange={this.handleChange}
+            placeholder="andika namba hapa"
           />
         </div>
-      </form>
-
-      
-
+        <div id="type">
+          <p>{result}</p>
+          {image ? (
+            <img
+              src={"http://localhost/" + image}
+              width="100px"
+              height="100px"
+            />
+          ) : (
+            ""
+          )}
+        </div>
+        <footer class="footer mt-auto py-3">
+          <div class="container">
+            <span class="text-muted">
+              <a href="https://github.com/projektChapChap/">Github</a>
+            </span>
+          </div>
+        </footer>
+      </div>
     );
   }
 }
 
 const styles = {
   marginTop: "20%",
-  marginLeft: "35%",
-  marginRight: "35%",
 };

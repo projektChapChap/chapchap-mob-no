@@ -1,47 +1,56 @@
-[{
-  "name": "Airtel",
-  "phone": ["068", "069", "078"]
-},
+[
+  {
+    "name": "Airtel",
+    "phone": ["068", "069", "078"],
+    "image": "./images/airtel.png"
+  },
   {
     "name": "Vodacom",
-    "phone": ["074", "075", "076"]
+    "phone": ["074", "075", "076"],
+    "image": "./images/vodacom.png"
   },
   {
     "name": "Tigo",
-    "phone": ["065", "067", "071"]
+    "phone": ["065", "067", "071"],
+    "image": "./images/tigo.png"
   },
   {
     "name": "TTCL",
-    "phone": ["073", "039", "010"]
+    "phone": ["073", "039", "010"],
+    "image": "./images/ttcl.png"
   },
   {
-    "name": "HALOTEL",
-    "phone": ["062"]
+    "name": "Halotel",
+    "phone": ["062"],
+    "image": "./images/halotel.png"
+
   },
   {
-      "name": "AMMOTEL",
-      "phone": ["063"]
-    },  
+    "name": "Ammotel",
+    "phone": ["063"],
+    "image": "./images/ammotel.png"
+  },
 
-    {
-      "name": "COOTEL",
-      "phone": ["064"]
-    },
+  {
+    "name": "Cootel",
+    "phone": ["064"],
+    "image": "./images/cootel.png"
+  },
 
-    {
-      "name": "ZANTEL",
-      "phone": ["066"]
-    },
-    {
-      "name": "SMART",
-      "phone": ["077"]
-    },
+  {
+    "name": "Smile",
+    "phone": ["066"],
+    "image": "./images/smile.jpg"
+  },
+  {
+    "name": "Zantel",
+    "phone": ["077"],
+    "image": "./images/zantel.png"
+  },
 
-    {
-      "name": "SMART",
-      "phone": ["079"]
-    }
-
-
-
+  {
+    "name": "Smart",
+    "phone": ["079"],
+    "image": "./images/smart.png"
+  }
 ]

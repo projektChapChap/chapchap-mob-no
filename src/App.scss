@@ -1,0 +1,36 @@
+$app-width: 500px;
+$text-color: #777;
+$list-bgcolor: #f5f5f5;
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+h5 {
+  text-align: center;
+}
+
+input {
+  width: $app-width;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#type {
+  width: $app-width;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+footer {
+  position: fixed;
+  font-size: 14px;
+  bottom: 0;
+ 
+}
