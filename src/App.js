@@ -46,7 +46,6 @@ export default class App extends React.Component {
           />
         </div>
         <div id="type">
-          <p>{result}</p>
           {image ? (
             <img
               src={"http://localhost/" + image}
@@ -56,6 +55,8 @@ export default class App extends React.Component {
           ) : (
             ""
           )}
+          <br />
+          {/* <p>{result}</p> */}
         </div>
         <footer class="footer mt-auto py-3">
           <div class="container">
