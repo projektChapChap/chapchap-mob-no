@@ -28,7 +28,7 @@ export default class App extends React.Component {
 
       for (var obj2 in datum) {
         if (trimmedString === datum[obj2]) {
-          var result = data[obj].name;
+          // var result = data[obj].name;
           var image = data[obj].image;
         }
       }
@@ -38,7 +38,7 @@ export default class App extends React.Component {
         <h5>Jua namba Chap-chap!</h5>
         <div>
           <input
-            type="text"
+            
             value={this.state.value}
             ref="search"
             onChange={this.handleChange}
@@ -50,7 +50,7 @@ export default class App extends React.Component {
         <div id="type">
           {image ? (
             <img
-              src={"http://localhost/" + image}
+              src={image}
               width="100px"
               height="100px"
             />
