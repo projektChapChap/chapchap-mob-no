@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "http://projektChapChap.github.io/jua-namba-ya-simu-chapchap",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
