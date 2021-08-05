@@ -43,8 +43,8 @@ export default class App extends React.Component {
             ref="search"
             onChange={this.handleChange}
             placeholder="andika namba hapa"
-            maxLength="10"
             type="number"
+            maxLength="10"
           />
         </div>
         <div id="type">
@@ -55,7 +55,7 @@ export default class App extends React.Component {
               height="100px"
             />
           ) : (
-            ""
+            <h6 >ingiza namba sahihi!</h6>
           )}
           <br />
           {/* <p>{result}</p> */}
