@@ -1,6 +1,6 @@
 import React from "react";
 import data from "./data.json";
-import "./App.scss";
+import "./App.css";
 
 export default class App extends React.Component {
   constructor(props) {
