@@ -27,10 +27,18 @@ input {
   font-size: 30px;
 }
 
-
 footer {
   position: fixed;
   font-size: 14px;
   bottom: 0;
- 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+\ input[type="number"] {
+  -moz-appearance: textfield;
 }

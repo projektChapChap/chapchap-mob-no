@@ -35,14 +35,10 @@ export default class App extends React.Component {
     }
     return (
       <div style={styles}>
-        {
-          result ? <h5>{result}</h5> : <h5>Jua namba Chap-chap!</h5>
+        {result ? <h5>{result}</h5> : <h5>Jua namba Chap-chap!</h5>}
 
-        }
-        
         <div>
           <input
-            
             value={this.state.value}
             ref="search"
             onChange={this.handleChange}
@@ -54,15 +50,14 @@ export default class App extends React.Component {
         <div id="type">
           {image ? (
             <img
-              src={ 'https://udsm.eastus.cloudapp.azure.com/' + image}
+              src={"https://udsm.eastus.cloudapp.azure.com/" + image}
               width="100px"
               height="100px"
             />
           ) : (
-            <h6 >ingiza namba sahihi!</h6>
+            <h6>ingiza namba sahihi!</h6>
           )}
           <br />
-          
         </div>
         <footer class="footer mt-auto py-3">
           <div class="container">
