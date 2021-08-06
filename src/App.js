@@ -28,8 +28,8 @@ export default class App extends React.Component {
 
       for (var obj2 in datum) {
         if (trimmedString === datum[obj2]) {
-          // var result = data[obj].name;
-          var image = data[obj].image;
+          var result = data[obj].name;
+          // var image = data[obj].image;
         }
       }
     }
@@ -48,7 +48,7 @@ export default class App extends React.Component {
           />
         </div>
         <div id="type">
-          {image ? (
+          {/* {image ? (
             <img
               src={ 'http://20.83.186.167/' + image}
               width="100px"
@@ -56,9 +56,9 @@ export default class App extends React.Component {
             />
           ) : (
             <h6 >ingiza namba sahihi!</h6>
-          )}
+          )} */}
           <br />
-          {/* <p>{result}</p> */}
+          <p>{result}</p>
         </div>
         <footer class="footer mt-auto py-3">
           <div class="container">
