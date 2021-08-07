@@ -2,12 +2,12 @@
   {
     "name": "Airtel",
     "phone": ["068", "069", "078"],
-    "image": "./images/airtel.png"
+    "image": "images/airtel.png"
   },
   {
     "name": "Vodacom",
     "phone": ["074", "075", "076"],
-    "image": "./images/vodacom.png"
+    "image": "images/vodacom.png"
   },
   {
     "name": "Tigo",

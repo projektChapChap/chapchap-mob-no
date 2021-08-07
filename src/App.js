@@ -55,7 +55,7 @@ export default class App extends React.Component {
               height="100px"
             />
           ) : (
-            <h6>ingiza namba sahihi!</h6>
+            <h6>ingiza namba ya simu sahihi!</h6>
           )}
           <br />
         </div>
