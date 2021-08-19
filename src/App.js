@@ -29,13 +29,13 @@ export default class App extends React.Component {
       for (var obj2 in datum) {
         if (trimmedString === datum[obj2]) {
           var result = data[obj].name;
-          var image = data[obj].image;
+          // var image = data[obj].image;
         }
       }
     }
     return (
       <div style={styles}>
-        {result ? <h5>{result}</h5> : <h5>Jua namba Chap-chap!</h5>}
+        <h5>Jua namba Chap-chap!</h5>
 
         <div>
           <input
@@ -48,15 +48,8 @@ export default class App extends React.Component {
           />
         </div>
         <div id="type">
-          {image ? (
-            <img
-              src={"https://udsm.eastus.cloudapp.azure.com/" + image}
-              width="100px"
-              height="100px"
-            />
-          ) : (
-            <h6>ingiza namba ya simu sahihi!</h6>
-          )}
+          <h6>{result}</h6>
+
           <br />
         </div>
         <footer class="footer mt-auto py-3">
